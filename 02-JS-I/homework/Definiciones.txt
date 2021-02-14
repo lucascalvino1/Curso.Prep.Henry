@@ -1,0 +1,50 @@
+Variables
+
+En los lenguajes de programación, las variables se declaran para definir un espacio de memoria que podrá tomar distintos valores.
+En JS las variables se declaran con la palabra reservada VAR y pueden contener cadenas de texto ( strings), 
+booleanos ( true, false), números ( numeros reales como 3, 12.5 o 0.5  ), NULOS, entre otras cosas.
+Al definir una variable generalmente se declara el valor que la misma tendrá, salvo algunos casos donde la variable se define sin valor 
+y al llamarla retornará "UNDEFINED".
+Las variables pueden utilizarse en los controles de flujo y operaciones matemáticas.
+Hay un tipo de variable denominado "const" que es (valga la redundancia) una CONSTANTE cuyo valor no puede cambiar. Por ejemplo podríamos definir 
+CONST PI = 3.1456. El valor de PI es constante y no queremos que el mismo se modifique.
+Finalemnte las variables también pueden declararse con la palabra reservada LET . El funcionamiento es parecido al de VAR pero difieren en lo que 
+es el SCOPE de la variable. El scope es el ALCANCE y tiene que ver con situaciones de ejecución GLOBAL / LOCAL ( dentro de una función) en los 
+que participa la variable
+
+-----------------------------------------------
+Strings 
+
+Los strings son "cadenas de texto" y es uno de los tipos de valores que puede contener una variable. Se definen entre comillas simples o dobles 
+( 'Hola' es lo mismo que "Hola"). Con ellos se pueden realizar operaciones de concatenación mayormente, y luego también hay funciones que aplican
+sobre strings para conocer la longitud de la cadena de texto, buscar palabras/letras, obtener la cadena en mayuscula, minuscula, entre muchas mas.
+
+------------------------------------------------
+Funciones 
+
+En los lenguajes de programación las funciones son ejecuciones de código que reciben 0 o más argumentos, y retornará el valor definido
+según la palabra reservada "Return". Esto último no es condición necesaria en la definición de la función, puede definirse una función vacía y 
+al llamarla devolverá " Undefined " o un valor nulo. También puede utilizarse una función para imprimir valores en consola. 
+
+En una función el código figura "empaquetado" y aislado del resto del programa. Lo que importará son los argumentos o parámetros que la función recibe
+y el valor que la misma devuelve. 
+Las funciones permiten evitar códigos repetidos y ahorran mucho trabajo. Uniforman ejecuciones periódicas y 
+además ordenan sustancialmente la ejecución de un programa. 
+
+------------------------------------------------
+Declaraciones IF
+
+Las declaraciones IF se utilizan en el control de flujo de ejecución de programas. Permiten evaluar el valor de una variable y en función de esta evaluación
+continuar la ejecución del programa de una u otra manera, actuando de forma binaria VERDADERO o FALSO.
+Por ejemplo yo podría establecer una declaración IF en la puerta de un boliche, IF EDAD >= 18 AÑOS, VERDADERO . Lo que implica que si la  persona es mayor
+o igual que 18, puede ingresar. Si no , retornará falso ( hay que especificar con la palabra reservada ELSE)
+
+---------------------------------------------------
+
+Valores booleanos
+
+Los valores booleanos toman su nombre por el matemático "Boole"  y representa en la programación la logica binaria ( TRUE/FALSE ,SI/NO o  O/1 (cero,uno)).
+Son utilizados mayormente en el control de flujo y en funciones para establecer si se cumplen o no las declaraciones (Como la IF anteriormente mencionada)
+en JS y la mayoría de los lenguajes de programación estos valores booleanos son TRUE or FALSE. True representa valor binario 1 mientras que FALSE 0.
+La lógica "binaria" significa que solo existen 2 posibilidades, o verdadero o falso. Si no es verdadero, es falso. 
+
