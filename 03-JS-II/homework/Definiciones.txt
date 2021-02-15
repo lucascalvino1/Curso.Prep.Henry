@@ -1,0 +1,15 @@
+FOR
+
+El bucle "for" es una herramienta de control de flujo que ejecutará iteraciones mientras que el condicional que le impusimos
+retorne TRUE. Un ejemplo de la vida real, cada vez que midas el volúmen de agua de una jarra y el mismo sea menor o igual a 1 litro, 
+agregá 100 mililitros de agua. De esta manera llenaremos la jarra de agua en 10 iteraciones.
+
+En JS se define primero la variable sobre la que iteraremos ( la notación más común es i, "var i = 0"), en segundo lugar el condicional sobre el cual
+trabajará el bucle ( i < 1000 ml ) y por último el incremento que le queremos dar a i en cada iteración ( i = i+100)
+
+`&&`, `||`, `!`
+
+Estos operadores se utilizan sobre los condicionales con el propósito de darle precisión a la lógica booleana. En el caso del && o AND, impone
+una segunda condición que se debe cumplir ( o no) para que se ejecute una línea de código. El "||" (denominado también "OR") establece que alcanza con que se cumpla una
+de las condiciones relacionadas por medio del operador). El último de ellos "!" sirve para encontrar el complemento de un valor. Es el contrario al valor
+escrito o al valor retornado por un condicional. "!(color===azul)" Significa que si el color no es azul, es verdadero.
