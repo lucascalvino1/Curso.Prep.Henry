@@ -1,0 +1,8 @@
+ARRAYS
+
+Los arrays son espacios de memoria tipo "matriz" (sobre todo matrices de N x 1) que pueden alojar todos los tipos primitivos de valores
+de javascript. Cada uno de los datos almacenados en un array aparece separado por comas. Puede ser array que contiene cadenas de texto,
+arrays de numeros, booleanos, valores nulos, y combinaciones de todos los anteriores.
+
+Los arrays son muy útiles por su versatilidad para almacenar variables y participar en controles de flujo, ser resultado de funciones, entre
+otras cosas.
