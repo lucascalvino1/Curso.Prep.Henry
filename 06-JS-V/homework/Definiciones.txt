@@ -1,0 +1,16 @@
+prototype
+
+El prototype en las clases es una forma de establecer métodos para una clase y que luego cada objeto pueda acceder a dicho método. De esta manera estamos optimizando memoria,
+ya que si una clase tiene 10 métodos, no se crean 10 métodos nuevos en memoria cada vez que se crea un objeto. Si no que los métodos se almacenarán
+en el prototype donde luego los objetos de clase definidos ( instancias ) acceden a él para ejecutarlo.
+Los métodos de prototype acceden a la palabra this de cada objeto ( será el que esté a la izquierda del punto que separa el objeto y el método)
+Los prototype también me permiten crear un objeto tomando como argumento el prototype. Este objeto "heredará" los métodos del prototype.
+La herencia se da en forma de cadena ( prototype chain ) heredando los métodos de la clase padre a través del prototype.
+
+
+Constructors (de Clases)
+
+En la programación orientada a objetos, los constructores de clase son "moldes" para la creación de nuevos objetos. La clase define las 
+características y métodos de una clase. La clase " mamiferos " define las características de estos animales y sus métodos. 
+Luego la clase perro/gato son instancias de clase mamíferos que heredarán el prototype y características de los Mamíferos, 
+y además características y métodos particulares de los perros/gatos.
