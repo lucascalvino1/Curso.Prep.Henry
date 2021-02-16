@@ -1,0 +1,29 @@
+Objetos
+
+Todo en JS son objetos. Los strings, numeros, booleanos son al fin y al cabo objetos (de distinto tipo). Los objetos permiten almacenar todo tipo
+de datos en forma de clave valor. Dandole una clave para su identificación y un valor ( acá podrá ser un booleano, un string, un numero, un array,
+etc,etc).
+En general los objetos se utilizan para representar algo y todo lo almacenado en ellos son propiedades y métodos del objeto. Por ejemplo el objeto 
+persona tendrá ciertas propiedades (nombre,apellido,edad) y ciertos métodos (saludar, gritar, correr,etc)
+
+
+Propiedades
+
+Las propiedades se definen dentro de los objetos y permiten describir al mismo. Son características del objeto. Se representan en forma de clave-valor,
+siendo la clave lo que se quiere describir (ejemplo Nombre) y el valor el nombre en si (Matias, Lucas)
+
+Métodos
+
+Los métodos son funciones definidas dentro del objeto y por lo tanto la forma de invocarlas es siempre asociada al objeto. Por fuera del objeto estas
+funciones no existen. Se definen igual que las funciones previamente vistas, def function() {}
+
+Bucle for…in
+Los bucles "for..in" son similares a los bucles "for" con el que recorriamos strings, arrays, pero su aplicación especial es la de recorrer
+las claves de un objeto. " For clave in objeto "... . De esta manera podremos recorrer todo el objeto y obtener los valroes de cada clave
+
+Notación de puntos vs notación de corchetes
+
+La notación de corchetes, al igual que la notación de puntos, nos permiten acceder a los valores de cada clave de los objetos. 
+Al utilizar la notación de corchetes, es necesario que la palabra entre corchetes sea la clave como un string. Por ejemplo objeto['nombre].
+Con la notación de puntos, simplemente escribimos el objeto y la propiedad separados por un punto. "objeto.nombre". Esto último aplica también
+para los métodos, agregando los paréntesis y argumentos si se requieren.
