@@ -1,0 +1,14 @@
+FUNCIONES CALLBACK  
+
+Las funciones callback son funciones que se pasan como argumento de otra función, generalmente para recorrer arrays o matrices. Para cada
+elemento recorrido la función callback devolverá un valor, y se ejecutará a lo largo de todos los elementos ( salvo que especifiquemos otro
+recorrido en el ciclo).
+
+Las funciones callback se utilizan mucho en métodos de arrays dando origen a los "métodos de órden superior". En estos métodos encontramos
+.forEach que itera sobre un array aplicando el callback en cada elemento ( o podemos especificar que arranque o termine antes).
+El método .reduce aplica callback sobre los elementos y va acumulando el resultado ( toma dos argumentos, el acumulador y el elemento sobre el 
+que está iterando) y el método .map itera sobre cada elemento aplicandole la función ( .map actúa de manera parecida al forEach).
+
+La diferencia importante entre MAP y FOREACH es que map acumula todos los resultados en una colección, mientras que foreach no devuelve nada. 
+map se usa generalmente cuando se quiere transformar una colección de elementos con una función, mientras que foreach simplemente ejecuta 
+una acción para cada elemento.
