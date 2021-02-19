@@ -1,0 +1,66 @@
+h1{
+    color: #ff0000;
+    text-align: center;
+
+}
+
+h3,h4{
+    
+    text-align: center;
+
+}
+
+img {
+    width:400px;
+}
+
+.divClass {
+ background-color: #62bb0f;
+ text-align:center;   
+}
+
+#thirdDiv{
+    height:700px;
+    width:500px;
+    background-color: rgb(130, 43, 211);
+    padding:50px;
+    border-radius: 5px;
+    border-color: rgb(199, 88, 88);
+    border-width: 65px;
+    border:30px solid brown;
+}
+
+#spanId{
+    font-size: 18px;
+    margin:50px;
+}
+
+body {
+    background-image: url("../fondo.jpg") ;
+}
+
+div {
+    max-width:600px;
+    margin-left: auto;
+    margin-right:auto;
+    display: -webkit-flex;
+    display:         flex;
+    -webkit-align-items: center;
+            align-items: center;
+    -webkit-justify-content: center;
+            justify-content: center;
+    flex-direction:column;
+    justify-content: center;
+}
+
+.vertical-container {
+    height: 300px;
+    display: -webkit-flex;
+    display:         flex;
+    -webkit-align-items: center;
+            align-items: center;
+    -webkit-justify-content: center;
+            justify-content: center;
+  }
+
+  
